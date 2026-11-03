@@ -1,0 +1,14 @@
+source_commit=01cb3440b1933902138ac8a7cc08e94142a086b6
+source_tree=d904dfe6b15c07b23ddd173e54917b7bc4793d0e
+package_name=xhttp-cdn-deploy
+component_versions=resolved_at_install_or_update_time
+xray_release_channel=https://api.github.com/repos/XTLS/Xray-core/releases/latest
+xray_installer_channel=https://api.github.com/repos/XTLS/Xray-install/commits/main
+acme_release_channel=https://api.github.com/repos/acmesh-official/acme.sh/releases/latest
+debian_packages=latest_candidates_from_configured_debian_repositories
+files_sha256:
+cc960267d31e97869b71dac7e1379c1cd294cd089192c2a957d952a575b91461  deploy.sh
+f7d54bab18d179bd29b7078c1ad17f4ce2ebb42e50b86b75517501064b3c3e82  uninstall.sh
+9cceb0eeeadf0bc0f4ab403df0b94a37d954b74bf4fc3e99e69a29f7296d1d74  update.sh
+d6c1277cd04802f21e66291624fef99e7766de27130cc6669e3fa7347fb6a7b2  runtime-versions.sh
+73626f75c7697da596d9fc87fa79d4240e2049efedb9e2f7ef1b273b719ef3a7  README.md
